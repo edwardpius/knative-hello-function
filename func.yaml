@@ -1,7 +1,7 @@
 specVersion: 0.36.0
 name: hello-function
 runtime: springboot
-registry: localhost:5000
+# registry: localhost:5000
 created: 2024-11-19T12:56:48.397926-08:00
 build:
   git:
