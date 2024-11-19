@@ -4,6 +4,9 @@ runtime: springboot
 registry: localhost:5000
 created: 2024-11-19T12:56:48.397926-08:00
 build:
+  git:
+    url: https://github.com/edwardpius/knative-hello-function.git
+    revision: master
   builder: pack
   buildEnvs:
   - name: BP_NATIVE_IMAGE
